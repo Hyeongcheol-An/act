@@ -1,5 +1,15 @@
 # Write
 
+# 0. How to run
+
+1. make sure you have `docker` and `docker-compose` installed.
+
+2. run the api host by: `./up.sh`
+
+3. stop running the host: `ctrl + c`
+
+4. remove docker container/images: `./down.sh`:
+
 # 1. lession learned
 
 - `docker build -t compose-flask .` is not necessary. It is automatically done by `docker-compose up`, but with different docker image name. It's image name is created with `<directory_name>_<service_name>`.
