@@ -11,5 +11,7 @@
     - flask source code
     - flask는 실행시 포트 입력 받아 구동
         - 예: `python flask.py -p 5000`
+- README.md
+    - 설명
 
 - pull request
